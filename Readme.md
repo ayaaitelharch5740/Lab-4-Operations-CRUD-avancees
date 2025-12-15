@@ -177,7 +177,7 @@ JOIN abonne ab ON e.abonne_id = ab.id;
 
 ### 📸 Capture 1 : État des tables après les INSERT
 
-![INSERT](1.png)
+![INSERT](1.PNG)
 
 ---
 
@@ -274,7 +274,7 @@ WHERE auteur_id = 1 AND disponible = FALSE;
 
 ### 📸 Capture 2 : Résultat d'un UPDATE
 
-![Update](2.png)
+![Update](2.PNG)
 
 ---
 
@@ -338,7 +338,7 @@ REFERENCES `ouvrage` (`id`) ON DELETE RESTRICT)
 
 ### 📸 Capture 3 : Message d'erreur DELETE bloqué
 
-![Message d'Erreur](3.png)
+![Message d'Erreur](3.PNG)
 ---
 
 ### 4.3 - Supprimer un abonné
@@ -473,7 +473,7 @@ Toutes les opérations de la transaction ont été annulées.
 
 ### 📸 Capture 4 : Transaction (COMMIT ou ROLLBACK)
 
-![Transaction](4.png)
+![Transaction](4.PNG)
 
 ---
 
