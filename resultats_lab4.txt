@@ -1,0 +1,30 @@
+id	nom
+1	Antoine de Saint-Exupéry
+2	Victor Hugo
+3	Albert Camus
+4	George Orwell
+5	Jane Austen
+id	titre	disponible	auteur_id
+1	Le Petit Prince	1	1
+2	Les Misérables	1	2
+3	L'Étranger	0	3
+4	1984	0	4
+5	Pride and Prejudice	1	5
+id	nom	email
+1	Karim	karim@mail.com
+2	Lucie	lucie@mail.com
+ouvrage_id	abonne_id	date_debut	date_fin
+1	1	2025-06-18	NULL
+2	2	2025-06-19	NULL
+id	titre	disponible	auteur_id
+1	Le Petit Prince	1	1
+2	Les Misérables	0	2
+3	L'Étranger	0	3
+4	1984	0	4
+5	Pride and Prejudice	1	5
+id	nom	email
+1	Karim	karim.new@mail.com
+2	Lucie	lucie@mail.com
+ouvrage_id	abonne_id	date_debut	date_fin
+2	2	2025-06-19	NULL
+1	1	2025-06-18	2025-12-15
